@@ -95,8 +95,13 @@ const Hero = () => {
                     <Pointer name="Show Reel" color="red" />
                 </motion.div>
 
-                <div className="portrait size-32 rounded-full mx-auto mb-1">
-                    <Image src={portrait} alt="Profile Image" className="" />
+                <div className="portrait relative size-32 rounded-full overflow-hidden mx-auto mb-1">
+                  <Image
+                    src={portrait}
+                    alt="Profile Image."
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div className="flex justify-center">
                     <div className="inline-flex py-1 px-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full text-neutral-950 font-semibold gap-2">
