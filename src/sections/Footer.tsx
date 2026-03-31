@@ -2,12 +2,12 @@ import logoImage from "@/assets/images/craft_logo.svg"
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
 const footerLinks = [
-    { href: "https://github.com/MarselDokubo", label: "Gtihub" },
+    { href: "https://github.com/EmehGreg", label: "GitHub" },
     {
-        href: "https://www.linkedin.com/in/marsel-dokubo-7b315722a",
+        href: "https://www.linkedin.com/",
         label: "LinkedIn",
     },
-    { href: "https://x.com/MarselDokubo", label: "Twitter" },
+    { href: "https://x.com/", label: "Twitter" },
     { href: "/resume.pdf", label: "Résumé" },
 ];
 
